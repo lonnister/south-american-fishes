@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkseagreen;
+    background-image: url(boat-in-amazon-river.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#content {
+    background-color: darkseagreen;
+    width: 860px;
+    margin: 100px auto;
+    padding: 30px 20px 80px 20px;
+    border: solid 5px;
+}
+
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    line-height: 0.8em;
+    width: 35%;
+    margin: 0 auto 10px auto;
+    text-align: center;
+}
+
+div p {
+    background-color: white;
+    border: groove;
+    font-family: monospace, sans-serif;
+}
+
+h2 {
+    font-family: 'times new roman', sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'times new roman', times, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer {
+    padding: 5px 0 20px 0;
+}
+
+.block-element {
+    padding: 8px;
+    font-size: 40px;
+    color: black;
+    display: block;
+    font-family: Impact, Haettenschweiler, sans-serif;
+    width: 300px;
+    margin: 0 auto;
+    background-color: skyblue;
+    text-align-last: center;
+    text-decoration: none;
+    transition: background 1s;
+}
+
+
+.block-element2 {
+	padding: 8px;
+	font-size: 41px;
+	color: black;
+	display: block;
+	font-family: Impact, Haettenschweiler, sans-serif;
+	width: 300px;
+	margin: 0 auto;
+	background-color: #FFFFCE;
+	text-align-last: center;
+	text-decoration: none;
+	transition: background 1s;
+}
+
+
+.block-element:hover {
+	background-color: darkred;
+}
+
+.block-element2:hover {
+	background-color: rebeccapurple;
+}
+
